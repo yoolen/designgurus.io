@@ -7,4 +7,7 @@ class Solution:
         exactly the same as the number of characters in the English
         alphabet.
         """
-        return len(set(''.join([char.lower() for char in sentence if char.isalpha()]))) == 26
+        return (
+            len(set("".join([char.lower() for char in sentence if char.isalpha()])))
+            == 26
+        )
