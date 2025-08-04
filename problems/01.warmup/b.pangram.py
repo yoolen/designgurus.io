@@ -1,4 +1,3 @@
-# 2. Pangram
 class Solution:
     def checkIfPangram(self, sentence):
         """

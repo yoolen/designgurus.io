@@ -1,4 +1,3 @@
-# 1. Contains Duplicate
 class Solution:
     def containsDuplicate(self, nums):
         """
