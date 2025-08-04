@@ -6,5 +6,6 @@ class Solution:
         found through set or a dict) is shorter than
         the length of the list, then there must be
         duplicate elements.
+        O(n) since we are only iterating over the list once.
         """
         return len(set(nums)) != len(nums)
