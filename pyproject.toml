@@ -1,0 +1,64 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "designgurus-io"
+version = "0.1.0"
+description = "DesignGurus.io coding practice solutions"
+readme = "README.md"
+requires-python = ">=3.8"
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.pylint.main]
+# Use multiple processes to speed up Pylint
+jobs = 0
+# Minimum Python version to use for version dependent checks
+py-version = "3.8"
+
+[tool.pylint.messages_control]
+# Disable specific warnings that are common in coding practice problems
+disable = [
+    "missing-module-docstring",
+    "missing-class-docstring", 
+    "missing-function-docstring",
+    "too-few-public-methods",
+    "invalid-name",  # For single letter variables common in algorithms
+    "line-too-long", # Let black handle line length
+]
+
+[tool.pylint.format]
+# Maximum number of characters on a single line
+max-line-length = 88
+
+[tool.pylint.design]
+# Maximum number of arguments for function / method
+max-args = 10
+# Maximum number of locals for function / method body
+max-locals = 20
+# Maximum number of return / yield for function / method body
+max-returns = 10
+# Maximum number of branch for function / method body
+max-branches = 15
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 88

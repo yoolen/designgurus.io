@@ -3,6 +3,9 @@ venv/
 env/
 .env
 
+# Development tooling
+Makefile
+
 # Python
 __pycache__/
 *.py[cod]
