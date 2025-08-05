@@ -4,8 +4,26 @@ My solutions for the DesignGurus.io coding interview patterns course.
 
 ## Progress
 
-- [ ] Warmup
+- [x] Warmup
+  - [x] Contains Duplicate
+  - [x] Pangram
+  - [x] Reverse Vowels
+  - [x] Valid Palindrome
+  - [x] Valid Anagram
+  - [x] Shortest Word Distance
+  - [x] Number of Good Pairs
+  - [x] Square Root
 - [ ] Two Pointers
+  - [ ] Pair with Target Sum
+  - [ ] Find Non-Duplicate Number Instances
+  - [ ] Squaring a Sorted Array
+  - [ ] Triplet Sum to Zero
+  - [ ] Triple Sum Close to Target
+  - [ ] Triplets with Smaller Sum
+  - [ ] Dutch National Flag Problem
+  - [ ] Quadruple Sum to Target
+  - [ ] Comparing Strings Containing Backspaces
+  - [ ] Minimum Window Sort
 - [ ] Fast & Slow Pointers
 - [ ] Sliding Window
 - [ ] Merge Intervals
