@@ -1,3 +1,9 @@
+"""
+Given an array of strings words and two different strings that already exist in the
+array word1 and word2, return the shortest distance between these two words in the list.
+"""
+
+
 class Solution:
     def shortestDistance(self, words, word1, word2):
         """
